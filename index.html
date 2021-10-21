@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Code Quiz</title>        
+        <link rel="stylesheet" href="./assets/style.css"/>
+    </head>
+
+    <body>
+        <div class="questions" id="startScreen">
+            <h1 id="title">Coding Quiz Questionnaire!</h1>
+            <p id="instructions">
+                Select the correct answer to earn points.
+                <br>
+                Keep an eye on the clock so you don't run out of time!
+                <br>
+                <br> 
+                Click below to start the quiz!
+            </p>
+            <button type="button" class="button" id="startButton">Start!</button>
+        </div>
+        <div class="gameSpot" id="quiz">
+            <h1 id="question"></h1>
+            <ol id="answers">
+                <li class="answerOptions" id="answer1"></li>
+                <li class="answerOptions" id="answer2"></li>
+                <li class="answerOptions" id="answer3"></li>
+                <li class="answerOptions" id="answer4"></li>
+            </ol>
+            <div id="timer"><p>Time left: <span id="timeRemaining">60</span></p></div>
+        </div>
+
+        <div class="gameSpot" id="results">
+            <h1 id="yourScore">You scored <span id="playerScore"></span> points!</h1>
+            <button type="button" class="button" id="playAgain">Play again?</button>
+        </div>
+
+
+        <script src="./assets/script.js"></script>
+    </body>
+
+</html>

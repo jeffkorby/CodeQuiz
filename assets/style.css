@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(61, 238, 129);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 2rem;
+    color: rgba(8, 3, 250, 0.815);
+}
+
+li {
+    margin: 5px 0;
+    font-size: 1.5rem;
+}
+
+h3{
+    color: blue;
+}
+
+.gameSpot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 10px 0;
+    background-color: rgb(77, 229, 240);
+    border-radius: 20px;
+    width: 90%;
+}
+
+#startScreen {
+    display: flex;
+    text-align: center;
+    display: block;
+}
+
+#title {
+    margin: 10px 10px;
+    font-size: 1.5rem;
+    padding: 3%;
+}
+
+#instructions{
+    margin: 10px;
+    font-size: 1.25rem;
+    display: block;
+    color: rgb(128, 30, 173);
+    margin: 35px
+}
+
+.button{
+    margin: 35px;
+    transform: scale(1.5);
+    background-color: rgba(255, 16, 16, 0.897);
+    color: white;
+    padding: 2px;
+}
+
+#quiz {
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#question {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0 15px;
+}
+
+#answers {
+    list-style-type: none;
+}
+
+.answerOptions {
+    background-color: #083500df;
+    color: white;
+    border-radius: 15px;
+    margin: 25px 0;
+    padding: 7px 12px;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+#timer {
+    position: absolute;
+    bottom: 30px;
+    border-radius: 15px;
+    background-color: rgb(202, 2, 2);
+    padding: 8px;
+}
+
+#timeRemaining {
+    font-size: 1.65rem;
+}
+
+#results {
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:415px) {
+
+* {
+    font-size: 30px;
+}
+
+}
+
+@media screen and (min-width:700px) {
+
+* {
+    font-size: 35px;
+}
+
+}
+
+@media screen and (min-width:1000px) {
+
+.gameSpot {
+    margin-top: 125px;
+}
+
+}
