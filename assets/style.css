@@ -18,6 +18,12 @@ h1 {
     color: rgba(8, 3, 250, 0.815);
 }
 
+#playerScore {
+    margin: 10px 0;
+    font-size: 2rem;
+    color: rgba(187, 19, 209, 0.973);
+}
+
 li {
     margin: 5px 0;
     font-size: 1.5rem;
